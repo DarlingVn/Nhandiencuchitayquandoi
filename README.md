@@ -64,6 +64,9 @@ python Scripts/start.py
 
 ## 🏆 Người đóng góp
 - **[Hà Tuấn Điệp]** - Triển khai toàn bộ mã nguồn, kiểm thử, triển khai dự án
+- **[Đinh Thị Ngọc Bích]** - Thuyết trình
+- **[Giàng A Dụng]** - Thiết kế powerpoint
+- **[Nguyễn Gia Thái]** - viết overleaf
 
 ## 📜 Giấy phép
 Dự án này được cấp phép theo MIT License.
