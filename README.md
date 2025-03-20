@@ -4,8 +4,10 @@
 
 
 ## 📌 Giới thiệu
-Hệ thống nhận diện cử chỉ tay quân đội là một dự án kết hợp giữa phần cứng (Arduino Mega, MPU6050, cảm biến flex) và phần mềm (Python, Scikit-learn) để phân loại cử chỉ tay theo thời gian thực. Dữ liệu từ cảm biến được truyền tới máy tính để huấn luyện mô hình SVM nhằm phân loại chính xác các cử chỉ.
-
+Hệ thống nhận diện cử chỉ tay quân đội là một dự án kết hợp giữa phần cứng (Arduino Mega, MPU6050, cảm biến flex) và phần mềm (Python, Scikit-learn) để phân loại cử chỉ tay theo thời gian thực. Dữ liệu từ cảm biến được truyền tới máy tính để huấn luyện mô hình SVM nhằm phân loại chính xác các cử chỉ.  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1e674d67-e7d2-4ba0-b727-83eb47f93ffa" alt="Cử chỉ tay" width="450"/>
+</p> 
 
 ## 🏗️ Hệ thống
 ### 📂 Cấu trúc dự án
@@ -19,10 +21,14 @@ Hệ thống nhận diện cử chỉ tay quân đội là một dự án kết 
 ## ⚙️ Yêu cầu hệ thống
 ### 🔌 Phần cứng
 
+
 - **Arduino Mega 2560** - Xử lý tín hiệu từ nhiều cảm biến
 - **MPU6050** - Cảm biến IMU đo chuyển động tay
 - **Cảm biến flex x7** - Đo độ cong của ngón tay
 - **Điện trở & Breadboard** - Hỗ trợ kết nối mạch
+
+### Hướng dẫn lắp đặt phần cứng
+<img src="https://github.com/user-attachments/assets/4aadf77d-4a5e-431b-bd67-e0db7941a7b8" alt="Hướng Dẫn" width="450" />
 
 ### 💻 Phần mềm
 - **Python 3.x** - Xử lý dữ liệu
